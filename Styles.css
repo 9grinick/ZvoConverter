@@ -1,17 +1,60 @@
 .center{
-    margin-left:42px;
+    margin-left:184px;
+    margin-right: 184px;
+    background-color: snow;
+    box-shadow: 0 5px 20px #E4E4E6;
 }
 .NormText {
+    margin-top: 80px;
+    margin-left: 42px;
     width: 80%;
     height: 30vh;
     
 }
 .ZovText {
-    
+    margin-left: 42px;
     width: 80%;
     height: 30vh;
+    margin-bottom: 300px;
 }
 .Change{
+    border-radius: 10px;
+    margin-left: 42px;
     margin-top:10px;
     margin-bottom:12px;
+    transition: 0.2s ease;
+    padding-bottom: 20px;
+    padding-right: 42px;
+    text-align: center;
 }
+.Change:hover{
+    background-color: #514E71;
+}
+body{
+    background-color: #d9d9d9;
+}
+.header{
+    background-color: #514E71;
+    height: 68px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
