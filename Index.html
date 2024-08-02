@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="Styles.css" />
 </head>
 <body>
-    <script src="Main.js"></script>
-    <div class="center">
+    <div class="center" id="center">
         <form name="form" class="calc">
-            <textarea class="NormText" placeholder="Обычный текст"></textarea> <br />
-            <textarea class="ZovText" placeholder="Zov Текст"></textarea>
+            <textarea class="NormText" placeholder="Обычный текст" id="Norm"></textarea> <br />
+            <input class="Change" type="button" value="Change" id="Change" /><br />
+
+            <textarea class="ZovText" placeholder="Zov Текст" id="Zov"></textarea>
         </form>
     </div>
+    <script src="Main.js"></script>
 </body>
 </html>
